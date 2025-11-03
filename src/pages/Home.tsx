@@ -1,4 +1,3 @@
-import { useMemo, useState } from "react";
 import Product from '../pages/ProductsPage'
 import Cursoal from "../components/Curosal"
 import About from "../pages/About"
