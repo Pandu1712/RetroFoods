@@ -1,5 +1,5 @@
     // src/ProductsPage.tsx
-    import React, { useMemo, useState } from "react";
+    import { useMemo, useState } from "react";
     import { products as catalog, categories } from "../data/products";
     import { useCart } from "../context/CartContext";
     import type { WeightKey } from "../data/products";

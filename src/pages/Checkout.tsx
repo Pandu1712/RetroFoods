@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { useCart } from '../context/CartContext';
 import { buildWhatsAppMessage } from "../utils/whstsapp"
 import { FaWhatsapp } from 'react-icons/fa';

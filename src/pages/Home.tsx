@@ -4,7 +4,7 @@ import Product from '../pages/ProductsPage'
 import Cursoal from "../components/Curosal"
 import About from "../pages/About"
 import Contact from "../pages/Contact"
-import Footer from "../components/Footer";
+
 
 export default function Home() {
   const [q, setQ] = useState("");

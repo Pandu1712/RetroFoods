@@ -1,5 +1,5 @@
 // src/CheckoutModal.tsx
-import React, { useState } from "react";
+import  { useState } from "react";
 
 export default function CheckoutModal({
   open,

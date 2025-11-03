@@ -1,5 +1,5 @@
 // src/CartPage.tsx
-import React, { useMemo, useState } from "react";
+import  { useMemo, useState } from "react";
 import { useCart } from "../context/CartContext"
 import CheckoutModal from "./CheckoutModal";
 
