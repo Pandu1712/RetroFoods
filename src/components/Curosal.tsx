@@ -2,24 +2,24 @@ import  { useState, useEffect } from "react";
 
 const slides = [
   {
-    img: "https://i.ytimg.com/vi/4WRieNi2bSo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCcgoIxaS-CjmOkboXJ2bFvZmCZMA",
+    img: "https://static.vecteezy.com/system/resources/thumbnails/013/934/183/small/navratan-chivda-is-a-great-munching-recipe-during-fasting-days-free-photo.jpg",
     name: "Mixture",
   },
   {
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0jVr4kzDFiqpH5Eog2ymXWH99Vzgfrj47TA&s",
+    img: "https://res.cloudinary.com/dd4oiwnep/image/upload/v1762360744/WhatsApp_Image_2025-11-04_at_20.28.31_d9c15960_a3emxi.jpg",
     name: "Jantikalu",
   },
   {
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo7DzfZJu7UynX29_vAIOERggUVtolcrfH6A&s",
-    name: "Karasev",
+    img: "https://res.cloudinary.com/dd4oiwnep/image/upload/v1762360729/WhatsApp_Image_2025-11-04_at_20.28.29_d4c86812_mylkau.jpg",
+    name: "Darakshi",
   },
   {
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH26FrwOuR8_cDKr8hHe0SrIHThZd2Y3KQaA&s",
+    img: "https://res.cloudinary.com/dd4oiwnep/image/upload/v1762360733/WhatsApp_Image_2025-11-04_at_20.28.26_f227930c_ojztp5.jpg",
     name: "Chegodilu",
   },
   {
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQyAei2jtfxLsXZdnFlOTtkOZSoHedggl0CA&s",
-    name: "Butter Chakli",
+    img: "https://res.cloudinary.com/dd4oiwnep/image/upload/v1762360716/WhatsApp_Image_2025-11-04_at_22.04.54_b435c6b6_xch7mg.jpg",
+    name: "Panchadara Chilakalu",
   },
 ];
 

@@ -176,12 +176,10 @@
                         <h3 className="font-semibold text-lg text-amber-800">
                         {p.name}
                         </h3>
-                        <p className="text-sm text-gray-600 mb-3">
-                        {p.description}
-                        </p>
+                        
 
                         {/* Weight Selector */}
-                        <div className="flex flex-wrap gap-2 mb-3">
+                        <div className="flex flex-wrap gap-2  mt-5">
                         {weightOptions.map((w) => (
                             <button
                             key={w}
