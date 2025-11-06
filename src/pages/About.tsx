@@ -1,10 +1,7 @@
-
-
 export default function About() {
   return (
     <main className="bg-gradient-to-b from-orange-50 to-white text-slate-700">
       {/* --- Hero Section --- */}
-
 
       {/* --- Intro Story --- */}
       <section className="max-w-6xl mx-auto py-12 px-6 grid md:grid-cols-2 gap-10 items-center">
@@ -23,9 +20,9 @@ export default function About() {
             across India.
           </p>
           <p className="mt-4 text-lg leading-relaxed">
-            Every bite reflects our values — **purity, freshness, and
-            craftsmanship**. We still roast, fry, and spice our snacks the same
-            way our grandparents did — with care, patience, and heart.
+            Every bite reflects our values — <strong>purity, freshness, and
+            craftsmanship</strong>. We still roast, fry, and spice our snacks
+            the same way our grandparents did — with care, patience, and heart.
           </p>
         </div>
         <div className="rounded-2xl overflow-hidden shadow-lg">
@@ -52,29 +49,27 @@ export default function About() {
               flavors and freshness in every batch.
             </p>
           </div>
+
           <div className="bg-white rounded-xl shadow-md p-6 text-center hover:-translate-y-1 hover:shadow-lg transition">
             <img
               src="https://cdn-icons-png.flaticon.com/512/1046/1046857.png"
               alt="Tradition"
               className="w-16 h-16 mx-auto mb-4"
             />
-            <h4 className="text-xl font-semibold text-orange-700">
-              Tradition
-            </h4>
+            <h4 className="text-xl font-semibold text-orange-700">Tradition</h4>
             <p className="text-sm mt-2 text-slate-600">
               Every recipe is a story — preserved through generations, still
               prepared with traditional methods.
             </p>
           </div>
+
           <div className="bg-white rounded-xl shadow-md p-6 text-center hover:-translate-y-1 hover:shadow-lg transition">
             <img
               src="https://cdn-icons-png.flaticon.com/512/1791/1791333.png"
               alt="Innovation"
               className="w-16 h-16 mx-auto mb-4"
             />
-            <h4 className="text-xl font-semibold text-orange-700">
-              Innovation
-            </h4>
+            <h4 className="text-xl font-semibold text-orange-700">Innovation</h4>
             <p className="text-sm mt-2 text-slate-600">
               We blend traditional tastes with modern packaging — ensuring
               hygiene, convenience, and long shelf life.
@@ -88,31 +83,29 @@ export default function About() {
         <h2 className="text-3xl font-bold text-center text-orange-700 mb-8">
           From Our Kitchen to Yours
         </h2>
+
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
           {[
-            "https://t4.ftcdn.net/jpg/04/22/75/59/360_F_422755956_LsYfkCmZ0RxDGzYBw3JUmhmOkogQfq8r.jpg",
-            "https://t4.ftcdn.net/jpg/04/22/75/59/360_F_422755956_LsYfkCmZ0RxDGzYBw3JUmhmOkogQfq8r.jpg",
-            "https://t4.ftcdn.net/jpg/04/22/75/59/360_F_422755956_LsYfkCmZ0RxDGzYBw3JUmhmOkogQfq8r.jpg",
-            "https://t4.ftcdn.net/jpg/04/22/75/59/360_F_422755956_LsYfkCmZ0RxDGzYBw3JUmhmOkogQfq8r.jpg",
-             "https://t4.ftcdn.net/jpg/04/22/75/59/360_F_422755956_LsYfkCmZ0RxDGzYBw3JUmhmOkogQfq8r.jpg",
-            "https://t4.ftcdn.net/jpg/04/22/75/59/360_F_422755956_LsYfkCmZ0RxDGzYBw3JUmhmOkogQfq8r.jpg",
+            "https://res.cloudinary.com/dd4oiwnep/image/upload/v1762360748/WhatsApp_Image_2025-11-04_at_20.28.29_734c92c2_udg3xf.jpg",
+            "https://res.cloudinary.com/dd4oiwnep/image/upload/v1762360740/WhatsApp_Image_2025-11-04_at_22.02.21_6e4be4e0_dkpfk9.jpg",
+            "https://res.cloudinary.com/dd4oiwnep/image/upload/v1762360744/WhatsApp_Image_2025-11-04_at_20.28.31_d9c15960_a3emxi.jpg",
+            "https://res.cloudinary.com/dd4oiwnep/image/upload/v1762360737/WhatsApp_Image_2025-11-04_at_22.09.49_5c539d5a_wryh8w.jpg",
+            "https://res.cloudinary.com/dd4oiwnep/image/upload/v1762360729/WhatsApp_Image_2025-11-04_at_20.28.29_d4c86812_mylkau.jpg",
+            "https://res.cloudinary.com/dd4oiwnep/image/upload/v1762360716/WhatsApp_Image_2025-11-04_at_22.04.54_b435c6b6_xch7mg.jpg",
           ].map((img, i) => (
             <div
               key={i}
-              className="overflow-hidden rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-transform"
+              className="overflow-hidden rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-transform bg-white"
             >
               <img
-  src={img}
-  alt={`Snack ${i}`}
-  className="w-full h-auto object-contain rounded-none"
-/>
-
+                src={img}
+                alt={`Snack ${i}`}
+                className="w-full h-64 sm:h-56 object-cover rounded-none"
+              />
             </div>
           ))}
         </div>
       </section>
-
-      
     </main>
   );
 }
