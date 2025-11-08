@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { ShoppingCart, Menu, X, Send } from "lucide-react";
 import { useCart } from "../context/CartContext"; // ✅ adjust path if needed
+import logo from "../assets/RetroLogo.jpg";
+
 
 export default function Navbar() {
   const loc = useLocation();
@@ -56,9 +58,13 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full bg-gradient-to-r from-amber-500 to-yellow-400 flex items-center justify-center text-white font-bold shadow-md">
-            RF
-          </div>
+         <div className="w-10 h-10 rounded-full overflow-hidden shadow-md">
+      <img
+        src={logo} // ✅ Correct usage
+        alt="Retro Ruchulu Logo"
+        className="w-full h-full object-cover"
+      /></div>
+
           <div>
             <div className="font-extrabold text-[#78350F] text-lg tracking-wide">
               Retro Ruchulu
