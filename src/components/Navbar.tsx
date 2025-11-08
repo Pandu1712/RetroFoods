@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Search, ShoppingCart, Menu, X, Send } from "lucide-react";
+import { ShoppingCart, Menu, X, Send } from "lucide-react";
 import { useCart } from "../context/CartContext"; // ✅ adjust path if needed
 
 export default function Navbar() {
   const loc = useLocation();
-  const [search, setSearch] = useState("");
+  
   const [menuOpen, setMenuOpen] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
   const [user, setUser] = useState({ name: "", phone: "", address: "" });
@@ -13,10 +13,7 @@ export default function Navbar() {
   const { state } = useCart(); // ✅ use your state structure
   const cartItems = state.items; // ✅ extract items
 
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (search.trim()) alert(`Searching for: ${search}`);
-  };
+
 
   const links = [
     { name: "Home", path: "/" },
