@@ -92,7 +92,7 @@ export default function Navbar() {
         {/* Right Side */}
         <div className="flex items-center gap-4">
           {/* Search */}
-          <form
+          {/* <form
             onSubmit={handleSearch}
             className="hidden sm:flex items-center border border-amber-300 rounded-full bg-white/80 overflow-hidden shadow-sm focus-within:ring-2 focus-within:ring-amber-400"
           >
@@ -109,7 +109,7 @@ export default function Navbar() {
             >
               <Search size={18} />
             </button>
-          </form>
+          </form> */}
 
           {/* 🛒 Cart Button */}
           {/* 🛒 Cart Button */}
