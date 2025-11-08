@@ -16,7 +16,7 @@ export default function Contact() {
 
   const handleWhatsAppSend = () => {
     const phoneNumber = "916303130025"; // ✅ Replace with your WhatsApp number
-    const text = `*New Inquiry from Retro Foods Website*\n\n👤 Name: ${form.name || "N/A"}\n📧 Email: ${
+    const text = `*New Inquiry from Retro Ruchulu Website*\n\n👤 Name: ${form.name || "N/A"}\n📧 Email: ${
       form.email || "N/A"
     }\n💬 Message: ${form.message || "No message provided"}`;
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
@@ -35,14 +35,14 @@ export default function Contact() {
           <div className="relative flex flex-col justify-between">
             <img
               src="https://c8.alamy.com/comp/KA8KAA/stock-photo-of-diwali-food-or-diwali-snacks-or-diwali-sweets-like-KA8KAA.jpg"
-              alt="Retro Foods Store"
+              alt="Retro Ruchulu Store"
               className="h-[20vh] md:h-[55vh] w-full object-cover"
             />
 
             {/* Map Section */}
             <div className="relative">
               <iframe
-                title="Retro Foods Location"
+                title="Retro Ruchulu Location"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4953036489967!2d78.48667111487554!3d17.38504408807506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb977f85b2e2fb%3A0x5f1e09b0e3a09b54!2sCharminar!5e0!3m2!1sen!2sin!4v1676000637084!5m2!1sen!2sin"
                 width="100%"
                 height="250"
@@ -139,7 +139,7 @@ export default function Contact() {
       {/* Mobile Map + Directions */}
       <div className="mt-10 md:hidden">
         <iframe
-          title="Retro Foods Mobile Map"
+          title="Retro Ruchulu Mobile Map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4953036489967!2d78.48667111487554!3d17.38504408807506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb977f85b2e2fb%3A0x5f1e09b0e3a09b54!2sCharminar!5e0!3m2!1sen!2sin!4v1676000637084!5m2!1sen!2sin"
           width="100%"
           height="250"

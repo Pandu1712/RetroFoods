@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="w-12 h-12 bg-gradient-to-r from-amber-500 to-yellow-400 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-md">
               RF
             </div>
-            <h2 className="text-xl font-extrabold text-[#78350F]">Retro Foods</h2>
+            <h2 className="text-xl font-extrabold text-[#78350F]">Retro Ruchulu</h2>
           </div>
           <p className="text-slate-600 text-sm leading-relaxed">
             Premium handcrafted Indian snacks — made with love, heritage, and a touch of modern flavor.
@@ -72,7 +72,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-amber-100 mt-10 pt-4 text-center text-sm text-slate-500">
-        © {new Date().getFullYear()} <span className="font-semibold text-amber-600">Retro Foods</span> — Crafted with ❤️ in India.
+        © {new Date().getFullYear()} <span className="font-semibold text-amber-600">Retro Ruchulu</span> — Crafted with ❤️ in India.
       </div>
     </footer>
   );

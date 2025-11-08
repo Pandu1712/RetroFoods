@@ -47,7 +47,7 @@ export default function CartPage() {
       )
       .join("\n");
 
-    const msg = `🧾 *Retro Foods Order*\n\n👤 Name: ${user.name}\n📞 Phone: ${
+    const msg = `🧾 *Retro Ruchulu Order*\n\n👤 Name: ${user.name}\n📞 Phone: ${
       user.phone
     }\n🏠 Address: ${user.address}\n\n🛍️ *Items:*\n${itemsText}\n\n💰 Total: ₹${total}`;
 

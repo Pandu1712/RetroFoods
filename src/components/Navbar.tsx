@@ -45,7 +45,7 @@ export default function Navbar() {
       0
     );
 
-    const message = `🧾 *Retro Foods Order*\n\n👤 Name: ${user.name}\n📞 Phone: ${
+    const message = `🧾 *Retro Ruchulu Order*\n\n👤 Name: ${user.name}\n📞 Phone: ${
       user.phone
     }\n🏠 Address: ${user.address}\n\n🛍️ *Items:*\n${cartText}\n\n💰 Total: ₹${total}`;
 
@@ -64,7 +64,7 @@ export default function Navbar() {
           </div>
           <div>
             <div className="font-extrabold text-[#78350F] text-lg tracking-wide">
-              Retro Foods
+              Retro Ruchulu
             </div>
             <div className="text-xs text-[#a16207]">
               Handcrafted Snacks, Modern Taste

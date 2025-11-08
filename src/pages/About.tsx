@@ -12,7 +12,7 @@ export default function About() {
           <p className="text-lg leading-relaxed">
             Born from a small family kitchen in Andhra Pradesh,{" "}
             <span className="font-semibold text-orange-600">
-              Retro Foods
+              Retro Ruchulu
             </span>{" "}
             started with a simple dream — to bring the authentic taste of
             traditional Indian snacks to every household. What began as handmade

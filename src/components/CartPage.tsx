@@ -39,7 +39,7 @@ export default function CartPage() {
     setSending(true);
 
     const lines: string[] = [];
-    lines.push("🛍️ *Retro Foods Order*");
+    lines.push("🛍️ *Retro Ruchulu Order*");
     lines.push(`Name: ${payload.name}`);
     lines.push(`Phone: ${payload.phone}`);
     lines.push(`Address: ${payload.address}`);
@@ -58,7 +58,7 @@ export default function CartPage() {
 
     lines.push("");
     lines.push(`*Subtotal:* ₹${subtotal}`);
-    lines.push("Thank you for shopping with Retro Foods!");
+    lines.push("Thank you for shopping with Retro Ruchulu!");
 
     const whatsappNumber = "916303130025"; // ✅ Use your real number here
     const encoded = encodeURIComponent(lines.join("\n"));
