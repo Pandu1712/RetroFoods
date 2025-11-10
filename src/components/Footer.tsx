@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-gradient-to-r from-amber-500 to-yellow-400 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-md">
-              RF
+              RR
             </div>
             <h2 className="text-xl font-extrabold text-[#78350F]">Retro Ruchulu</h2>
           </div>
